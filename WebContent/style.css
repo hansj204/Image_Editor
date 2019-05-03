@@ -1,0 +1,44 @@
+body {
+    font-family:"나눔스퀘어라운드 ExtraBold";
+    font-size: 40px;
+    background-size: cover;
+    color:green;
+    margin-bottom: 0px;
+       text-align: center;
+}
+
+h1, h2, h3{
+    color:lightblue;
+        text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    text-align: center;
+}
+
+li {
+    float: left;
+    font-size: 33px; 
+    display: inline-block;
+    margin: auto;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 18px 35px;
+    text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color:lightcoral;  
+}
+
